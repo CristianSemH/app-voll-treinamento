@@ -12,7 +12,7 @@ export function Titulo({ children, ...rest }: TituloProps) {
             fontWeight="bold"
             color="gray.500"
             textAlign="center"
-            mt={12}
+            mt={5}
             {...rest}
         >
             {children}

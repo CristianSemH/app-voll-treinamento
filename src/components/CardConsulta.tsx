@@ -25,6 +25,7 @@ export function CardConsulta({
             p={5}
             borderRadius="lg"
             shadow={2}
+            mb={5}
         >
             <VStack flexDir="row">
                 <Avatar source={{ uri: foto }} size="lg" />
@@ -35,7 +36,7 @@ export function CardConsulta({
                 </VStack>
             </VStack>
             <Botao mt={4}>
-                {isAgendado ? 'Cancelar consulta' : 'Agendar consulta'}
+                {isAgendado ? 'Cancelar' : 'Agendar consulta'}
             </Botao>
         </VStack>
     )
